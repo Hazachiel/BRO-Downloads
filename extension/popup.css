@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  width: 320px;
+  background-color: #121214;
+  color: #f4f4f5;
+  font-size: 13px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 14px;
+  background-color: #1a1a1e;
+  border-bottom: 1px solid #27272a;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 12px;
+}
+
+.badge.online {
+  background-color: #064e3b;
+  color: #34d399;
+}
+
+.badge.offline {
+  background-color: #7f1d1d;
+  color: #f87171;
+}
+
+.badge.checking {
+  background-color: #27272a;
+  color: #a1a1aa;
+}
+
+.content {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.toggle-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.subtext {
+  font-size: 11px;
+  color: #a1a1aa;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #2563eb;
+  cursor: pointer;
+}
+
+.separator {
+  border: none;
+  border-top: 1px solid #27272a;
+  margin: 4px 0;
+}
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label {
+  font-size: 12px;
+  color: #d4d4d8;
+  font-weight: 500;
+}
+
+input[type="number"], input[type="password"], input[type="text"] {
+  background-color: #222228;
+  border: 1px solid #33333d;
+  color: #ffffff;
+  padding: 7px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #3b82f6;
+  background-color: #272730;
+}
+
+.hint {
+  font-size: 11px;
+  color: #71717a;
+}
+
+.btn-row {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.btn.primary {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.btn.primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn.secondary {
+  background-color: #222228;
+  color: #f4f4f5;
+  border-color: #33333d;
+}
+
+.btn.secondary:hover {
+  background-color: #2c2c34;
+}
+
+.footer {
+  padding: 8px 14px;
+  background-color: #18181c;
+  border-top: 1px solid #27272a;
+  text-align: center;
+  font-size: 11px;
+  color: #71717a;
+}

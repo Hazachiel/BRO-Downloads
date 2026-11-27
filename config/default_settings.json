@@ -1,0 +1,162 @@
+{
+  "start_with_windows": false,
+  "start_minimized": false,
+  "browser_integration": true,
+  "default_save_path": "~/Downloads",
+  "ffmpeg_path": null,
+  "server_port": 9876,
+  "server_token": "",
+  "server_enabled": true,
+  "monitored_extensions": [
+    "zip",
+    "rar",
+    "7z",
+    "tar",
+    "gz",
+    "iso",
+    "exe",
+    "msi",
+    "mp4",
+    "mkv",
+    "avi",
+    "mov",
+    "mp3",
+    "flac",
+    "pdf",
+    "docx"
+  ],
+  "excluded_sites": [
+    "*.banco*.com*",
+    "*login*",
+    "*signin*",
+    "*.gov.*"
+  ],
+  "categories": [
+    {
+      "name": "Comprimidos",
+      "icon": "🗜️",
+      "extensions": [
+        "zip",
+        "rar",
+        "7z",
+        "tar",
+        "gz",
+        "bz2",
+        "iso"
+      ],
+      "default_folder": "~/Downloads/Comprimidos"
+    },
+    {
+      "name": "Documentos",
+      "icon": "📄",
+      "extensions": [
+        "pdf",
+        "doc",
+        "docx",
+        "xls",
+        "xlsx",
+        "ppt",
+        "pptx",
+        "txt",
+        "epub"
+      ],
+      "default_folder": "~/Downloads/Documentos"
+    },
+    {
+      "name": "Música",
+      "icon": "🎵",
+      "extensions": [
+        "mp3",
+        "wav",
+        "flac",
+        "aac",
+        "ogg",
+        "m4a"
+      ],
+      "default_folder": "~/Downloads/Música"
+    },
+    {
+      "name": "Programas",
+      "icon": "📦",
+      "extensions": [
+        "exe",
+        "msi",
+        "dmg",
+        "pkg",
+        "deb",
+        "rpm",
+        "appimage",
+        "apk"
+      ],
+      "default_folder": "~/Downloads/Programas"
+    },
+    {
+      "name": "Video",
+      "icon": "🎬",
+      "extensions": [
+        "mp4",
+        "mkv",
+        "avi",
+        "mov",
+        "webm",
+        "flv"
+      ],
+      "default_folder": "~/Downloads/Video"
+    },
+    {
+      "name": "Imágenes",
+      "icon": "🖼️",
+      "extensions": [
+        "jpg",
+        "jpeg",
+        "png",
+        "webp",
+        "gif"
+      ],
+      "default_folder": "~/Downloads/Imágenes"
+    }
+  ],
+  "notify_on_start": false,
+  "notify_on_finish": true,
+  "play_sound_on_finish": false,
+  "speculative_download": true,
+  "duplicate_action": "smart",
+  "default_connections": 4,
+  "max_global_connections": 32,
+  "global_speed_limit_kb": 0,
+  "domain_limits": {
+    "rapidgator.net": 1,
+    "mega.nz": 4,
+    "drive.google.com": 4
+  },
+  "main_table_visible_columns": [
+    "Nombre de archivo",
+    "Cola",
+    "Estado",
+    "Velocidad"
+  ],
+  "main_table_column_widths": {
+    "Nombre de archivo": 300,
+    "Tamaño": 100,
+    "Estado": 110,
+    "Progreso": 150,
+    "Velocidad": 110,
+    "Tiempo Restante": 120,
+    "Cola": 130,
+    "Fecha": 140
+  },
+  "scheduler_table_visible_columns": [
+    "Prioridad",
+    "Nombre de Archivo",
+    "Servidor",
+    "Tamaño",
+    "Estado"
+  ],
+  "scheduler_table_column_widths": {
+    "Prioridad": 75,
+    "Nombre de Archivo": 300,
+    "Servidor": 130,
+    "Tamaño": 100,
+    "Estado": 110
+  }
+}

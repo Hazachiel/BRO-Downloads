@@ -1,0 +1,5 @@
+generate_icons.py
+generate_png_icons.py
+*.pyc
+native_host/com.brodownloads.host.json
+native_host/native_host.bat
