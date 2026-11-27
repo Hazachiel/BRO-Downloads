@@ -22,8 +22,8 @@
 Cloná el repositorio, instalá las dependencias y lanzá el programa:
 
 ```powershell
-git clone https://github.com/Hazachiel/BRO-Downloads.git
-cd BRO-Downloads
+git clone "https://github.com/Hazachiel/BRO-Downloads.git"
+cd "BRO-Downloads"
 pip install -r requirements.txt
 python main.py
 ```
